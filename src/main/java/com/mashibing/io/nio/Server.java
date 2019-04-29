@@ -59,7 +59,7 @@ public class Server {
                 e.printStackTrace();
             } finally {
             }
-        } else if (key.isReadable()) {
+        } else if (key.isReadable()) { //flip
             SocketChannel sc = null;
             try {
                 sc = (SocketChannel)key.channel();
